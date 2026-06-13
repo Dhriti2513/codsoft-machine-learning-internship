@@ -93,24 +93,34 @@ This project highlights customer retention analytics and demonstrates how gradie
 
 ### 🎯 Objective
 
-Build a deep learning model capable of generating text sequences by learning character-level patterns from training data.
+Build a deep learning model capable of generating text sequences by learning character-level patterns directly from a training corpus.
 
-### ⚙️ Architecture Highlights
+### ⚙️ Data Processing & Training Setup
 
-* Character tokenization pipeline converting text into numerical tensor representations.
-* Recurrent Neural Network (RNN) architecture capable of learning sequential dependencies.
-* Multi-layer hidden state management for capturing long-term context.
-* GPU-accelerated training for faster convergence and improved efficiency.
+* Extracted and cleaned 50,000+ characters from a machine learning research paper.
+* Converted characters into numerical indices for neural network processing.
+* Generated fixed-length input sequences using a 50-character context window.
+* Trained the model for 1500 epochs using the Adam optimizer and Cross-Entropy Loss.
 
-### 🧠 Technologies Used
+### 🧠 Model Used
 
-* PyTorch / TensorFlow
-* NumPy
-* Python
+* Character-Level Recurrent Neural Network (RNN)
+* Embedding Layer (64 Dimensions)
+* 2-Layer Stacked RNN (128 Hidden Units)
+* Fully Connected Output Layer
+
+### 📈 Results
+
+| Metric | Value |
+|----------|----------|
+| Training Epochs | **1500** |
+| Sequence Length | **50 Characters** |
+| Embedding Dimension | **64** |
+| Hidden Units | **128** |
 
 ### 💡 Key Learning
 
-This project introduces sequence modeling and demonstrates how neural networks can learn language structures and generate coherent text based on learned probability distributions.
+This project provided hands-on experience with sequence modeling, character embeddings, recurrent neural networks, and text generation. It demonstrates how neural networks can learn language structure directly from raw text and generate domain-inspired sequences without predefined vocabularies.
 
 ---
 
