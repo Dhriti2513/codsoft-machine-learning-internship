@@ -1,0 +1,21 @@
+# =====================================================================
+# DATASETS (Ignore massive CSV files exceeding GitHub's 100MB limit)
+# =====================================================================
+fraudTest.csv
+fraudTrain.csv
+*.csv
+
+# =====================================================================
+# JUPYTER NOTEBOOK CHECKPOINTS & SYSTEM FILES
+# =====================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# =====================================================================
+# VIRTUAL ENVIRONMENTS (If any are created locally)
+# =====================================================================
+env/
+venv/
+.env
