@@ -120,7 +120,7 @@ Build a deep learning model capable of generating text sequences by learning cha
 
 ### 💡 Key Learning
 
-This project provided hands-on experience with sequence modeling, character embeddings, recurrent neural networks, and text generation. It demonstrates how neural networks can learn language structure directly from raw text and generate domain-inspired sequences without predefined vocabularies.
+This project provided hands-on experience with sequence modeling, character embeddings, recurrent neural networks, and text generation. The trained model successfully learned domain-specific language patterns and generated new text sequences from a given seed prompt.
 
 ---
 
